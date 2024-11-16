@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.landing-container {
+  background-color: #eef2ff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo img {
+  width: 50px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.content h1 {
+  font-size: 36px;
+  color: #333333;
+}
+
+.actions {
+  background-color: #5B86E5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.actions h2 {
+  margin: 0;
+  font-size: 40px;
+  color: #333333;
+}
+
+.actions p {
+  margin: 10px 0 20px 0;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #333333;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.ip-management {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.ip-management h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.ip-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ip-image {
+  width: 100px;
+  height: auto;
+}
+
+.learn-more-btn {
+  padding: 10px 20px;
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.learn-more-btn:hover {
+  background-color: #555555;
+}
